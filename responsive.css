@@ -278,7 +278,7 @@ Utiliza las referencias de los breakpoints @media abajo */
     }
 
     .title__subsection{
-        text-align: justify;
+        text-align: left;
         font-size: 14px;
     }
 
