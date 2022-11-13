@@ -1,0 +1,399 @@
+
+/* Vamos a desafiarnos trabajando con responsividad?
+Utiliza las referencias de los breakpoints @media abajo */
+
+/*Tablet*/
+@media (max-width: 768px) {
+
+    /* Menú */
+    section.menu{
+        margin: 0;
+    }
+
+    .menu__title{
+        font-size: 16px;
+    }
+    
+    nav{
+        display: none;
+    }
+    
+    .email__navTablet{
+        display: inline-block;
+        margin-left: 12rem;
+    }
+    
+    .menu__header{
+        width: 100%;
+        padding: 0 1.5rem 0 1.5rem;
+    }
+    
+    /*title*/
+    section.title{
+        width: 100%;
+    }
+
+    .title__container{
+        padding: 0 2.5rem 0 2rem;
+        width: 80%;
+    }
+
+    .title__bio{
+        font-size: 22px;
+    }
+
+    .title__subsection{
+        font-size: 1rem;
+        margin-bottom: 0;
+    }
+
+    .title__image{
+        padding-right: 2rem;
+        width: 20%;
+    }
+
+    .title__profile{
+        width: 148px;
+    }
+    
+    /*About*/
+    section.about{
+        width: 100%;
+        padding: 0;
+        text-align: left;
+    }
+
+    .about__container{
+        width: 100%;
+        padding: 1.5rem 0 1.5rem 0;
+    }
+
+    .about__title{
+        font-size: 22px;
+        padding: 0 2rem 0 2rem;
+    }
+
+    .about__paragraph{
+        font-size: 14px;
+        padding: 0 2rem 0 2rem;
+    }
+        
+    /*Skills*/
+    
+    section.skills{
+        margin: 0;
+    }
+
+    .skills__title{
+        font-size: 22px;
+    }
+
+    .skills__box{
+        width: 224px;
+        height: 118px;
+    }
+
+    .skills__box ul{
+        padding: 1rem;
+        padding-top: 2.2rem;
+    }
+
+    /*Hobbies*/
+    section.hobbies{
+        margin: 0;
+    }
+
+    .hobbies__title{
+        padding-top: 3rem;
+        font-size: 22px;
+    }
+
+    .hobbies__box{
+        width: 224px;
+        height: 118px;
+    }
+
+    .hobbies__box ul{
+        padding: 1rem;
+        padding-top: 2.2rem;
+    }
+
+    /*Formación Académica*/
+    section.academic{
+        margin: 0;
+        padding-bottom: 2rem;
+    }
+
+    .academic__title{
+        font-size: 22px;
+        padding-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .academic__courses__list{
+        padding: 0;
+        margin: 0 .3rem 0 .3rem;
+    }
+
+    .academic__courses__item__img{
+        width: 224px;
+        height: 118px;
+        margin: 0;
+    }
+
+    .academic__courses__item__img img{
+        width: 50%;
+        margin: 0;
+    }
+
+    .academic__courses__item__title{
+        width: 224px;
+        font-size: 16px;
+    }
+
+    .academic__courses__item__subtitle{
+        font-size: 14px;
+    }
+
+    /*Experiencia Profesional*/
+
+    .experience__section__title{
+        font-size: 22px;
+        padding: 1.5rem 0 1rem 0;
+        margin: 0;
+    }
+
+    #imagen__encrip{
+        width: 700px;
+        margin: 0;
+    }
+    
+    #imagen__ahorc{
+        width: 700px;
+        margin: 0;
+        margin-top: 1rem;
+    }
+    
+    #info__encrip{
+        width: 100%;
+        margin: 0 2rem 0 2rem;
+        padding: .5rem 0 0 0;
+    }
+
+    #info__ahorc{
+        width: 50%;
+        margin: 0 2rem 0 2rem;
+        padding: .5rem 0 0 0;
+    }
+
+    .experience__title{
+        font-size: 1rem;
+        margin: 0 0 0 .5rem;
+    }
+
+    .experience__text{
+        font-size: 14px;
+    }
+
+    #ahorcado{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .experience__botao--repo{
+        height: 40px;
+    }
+
+    .experience__botao--demo{
+        height: 40px;
+    }
+
+    .experiencie__box{
+        margin-bottom: 0;
+    }
+
+    /*form*/
+    .formcontato--esquerda{
+        display: none;
+    }
+
+    .formcontato__text{
+        margin-top: 2rem;
+    }
+
+    .formcontato__botao{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+    
+    /*Mobile*/
+@media (max-width: 475px) {
+
+    /* Menú */
+    .menu__title{
+        font-size: 16px;
+    }
+    
+    .email__navTablet{
+        display: none;
+    }
+
+    .email__navMobile{
+        display: inline-block;
+    }
+    
+    .menu__header{
+        width: 100%;
+        padding: 0 .3rem 0 .3rem;
+    }
+    
+    /*title*/
+    section.title{
+        margin: 0;
+        padding: 0;
+    }
+
+    .title__div{
+        
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .title__container{
+        padding: 0;
+        width: 94%;
+    }
+
+    .title__image{
+        padding: 0;
+        text-align: left;
+        width: 94%;
+    }
+
+    .title__profile{
+        width: 98px;
+    }
+
+    .title__subsection{
+        text-align: justify;
+        font-size: 14px;
+    }
+
+    .title__profile{
+        width: 98px;
+    }
+
+    .title__network__item a{
+        font-weight: 600;
+    }
+    
+    /*About*/
+    section.about{
+        margin: 0;
+    }
+
+    .about__container{
+        width: 100%;
+        padding: .5rem 0 .5rem 0;
+    }
+
+    .about__title{
+        padding: 0 .5rem 0 .5rem;
+    }
+
+    .about__paragraph{
+        font-size: 14px;
+        padding: 0 .5rem 0 .5rem;
+        text-align: justify;
+    }
+        
+    /*Skills*/
+    .skills__title{
+        font-size: 22px;
+    }
+
+    .skills__box{
+        width: 156px;
+    }
+
+    /*Hobbies*/
+    .hobbies__title{
+        padding-top: 1rem;
+    }
+
+    .hobbies__box{
+        width: 156px;
+    }
+
+    /*Formación Académica*/
+    section.academic{
+        padding-bottom: 1rem;
+    }
+    .academic__courses__list{
+        padding-bottom: 1.5rem;
+    }
+
+    .academic__courses__item__img{
+        width: 296px;
+    }
+
+    /*Experiencia Profesional*/
+    section.experience{
+        margin: 0;
+        padding: 0;
+    }
+
+    .experience__section__title{
+        padding: 2rem 0 1rem 0;
+    }
+
+    #imagen__encrip{
+        width: 296px;
+    }
+    
+    #imagen__ahorc{
+        width: 296px;
+    }
+
+    #info__ahorc{
+        width: 296px;
+    }
+
+    .experience__botao--repo{
+        height: 40px;
+    }
+
+    .experience__botao--demo{
+        height: 40px;
+    }
+
+    .experiencie__box{
+        margin-bottom: 0;
+    }
+
+    /*form*/
+    .formcontato__text{
+        width: 296px;
+        margin-top: 2rem;
+    }
+
+    .formcontato__input{
+        width: 294.5px;
+    }
+
+    .formcontato__textarea{
+        width: 296.5px;
+    }
+
+    .placeholder__fake{
+        width: 296.5px;
+    }
+
+    .formcontato__botao{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }        
+}
